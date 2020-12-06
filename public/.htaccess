@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteBase /new-mvc/public/
+RewriteBase /php-rest-api/public/
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
