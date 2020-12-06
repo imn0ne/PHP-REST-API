@@ -14,8 +14,9 @@ class Controller
         require_once '../app/Views/' . $view . '.php';
     }
 
-    public function controller($controller)
+    public function load($controller)
     {
         require_once '../app/Controllers/' . $controller . '.php';
+        return new $controller;
     }
 }
